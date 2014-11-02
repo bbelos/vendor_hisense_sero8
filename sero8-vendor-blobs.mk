@@ -34,3 +34,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/gralloc.rk30board.so:system/lib/hw/gralloc.rk30board.so \
     $(LOCAL_PATH)/proprietary/lib/hw/hwcomposer.rk30board.so:system/lib/hw/hwcomposer.rk30board.so \
     $(LOCAL_PATH)/proprietary/lib/libion.so:system/lib/libion.so
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/modules/rockchip_gslX680.ko:system/lib/modules/rockchip_gslX680.ko
