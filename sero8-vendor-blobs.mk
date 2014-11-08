@@ -126,3 +126,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/nh660.hcd:/system/vendor/firmware/nh660.hcd \
     $(LOCAL_PATH)/proprietary/vendor/firmware/rk903.hcd:/system/vendor/firmware/rk903.hcd \
     $(LOCAL_PATH)/proprietary/vendor/firmware/rk903_26M.hcd:/system/vendor/firmware/rk903_26M.hcd
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/libjpeghwdec.so:/system/lib/libjpeghwdec.so \
+    $(LOCAL_PATH)/proprietary/lib/libjpeghwenc.so:/system/lib/libjpeghwenc.so \
+    $(LOCAL_PATH)/proprietary/lib/librkswscale.so:/system/lib/librkswscale.so \
+    $(LOCAL_PATH)/proprietary/lib/libvpu.so:/system/lib/libvpu.so
