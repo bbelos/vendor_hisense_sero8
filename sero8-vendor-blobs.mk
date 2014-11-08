@@ -37,3 +37,26 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/modules/rockchip_gslX680.ko:system/lib/modules/rockchip_gslX680.ko
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/modules/8188eu.ko:/system/lib/modules/8188eu.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/8189es.ko:/system/lib/modules/8189es.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/8192cu.ko:/system/lib/modules/8192cu.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/8723as.ko:/system/lib/modules/8723as.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/8723au.ko:/system/lib/modules/8723au.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/esp8089.ko:/system/lib/modules/esp8089.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/esp_init_data.bin:/system/lib/modules/esp_init_data.bin \
+    $(LOCAL_PATH)/proprietary/lib/modules/init_data.conf:/system/lib/modules/init_data.conf \
+    $(LOCAL_PATH)/proprietary/lib/modules/mt5931.ko:/system/lib/modules/mt5931.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/mt7601ap.ko:/system/lib/modules/mt7601ap.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/mt7601sta.ko:/system/lib/modules/mt7601sta.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/mtprealloc7601Usta.ko:/system/lib/modules/mtprealloc7601Usta.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/rk29-ipp.ko:/system/lib/modules/rk29-ipp.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/rk29-ipp.ko.3.0.36+:/system/lib/modules/rk29-ipp.ko.3.0.36+ \
+    $(LOCAL_PATH)/proprietary/lib/modules/rk30_mirroring.ko.3.0.36+:/system/lib/modules/rk30_mirroring.ko.3.0.36+ \
+    $(LOCAL_PATH)/proprietary/lib/modules/rk30_mirroring.ko.3.0.8+:/system/lib/modules/rk30_mirroring.ko.3.0.8+ \
+    $(LOCAL_PATH)/proprietary/lib/modules/rkwifi.ko:/system/lib/modules/rkwifi.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/rkwifi.oob.ko:/system/lib/modules/rkwifi.oob.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/vpu_service.ko:/system/lib/modules/vpu_service.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/vpu_service.ko.3.0.36+:/system/lib/modules/vpu_service.ko.3.0.36+ \
+    $(LOCAL_PATH)/proprietary/lib/modules/wlan.ko:/system/lib/modules/wlan.ko
