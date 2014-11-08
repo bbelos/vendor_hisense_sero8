@@ -113,3 +113,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/nvram_RK903_26M.cal:/system/etc/firmware/nvram_RK903_26M.cal \
     $(LOCAL_PATH)/proprietary/etc/firmware/nvram_awnb108.txt:/system/etc/firmware/nvram_awnb108.txt \
     $(LOCAL_PATH)/proprietary/etc/firmware/otp.bin.z77:/system/etc/firmware/otp.bin.z77
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/BCM4330B1.hcd:/system/vendor/firmware/BCM4330B1.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/awnb108.hcd:/system/vendor/firmware/awnb108.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm20710a1_24M.hcd:/system/vendor/firmware/bcm20710a1_24M.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm20710a1_26M.hcd:/system/vendor/firmware/bcm20710a1_26M.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm2076b1.hcd:/system/vendor/firmware/bcm2076b1.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm40183b2.hcd:/system/vendor/firmware/bcm40183b2.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm4329.hcd:/system/vendor/firmware/bcm4329.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43341b0.hcd:/system/vendor/firmware/bcm43341b0.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/nh660.hcd:/system/vendor/firmware/nh660.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/rk903.hcd:/system/vendor/firmware/rk903.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/rk903_26M.hcd:/system/vendor/firmware/rk903_26M.hcd
