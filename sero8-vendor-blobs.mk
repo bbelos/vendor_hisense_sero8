@@ -69,3 +69,47 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/gpu.rk30board.so:/system/lib/hw/gpu.rk30board.so \
     $(LOCAL_PATH)/proprietary/lib/hw/lights.rk30board.so:/system/lib/hw/lights.rk30board.so \
     $(LOCAL_PATH)/proprietary/lib/hw/power.rk3188.so:/system/lib/hw/power.rk3188.so
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/etc/firmware/RT2870AP.dat:/system/etc/firmware/RT2870AP.dat \
+    $(LOCAL_PATH)/proprietary/etc/firmware/RT2870APCard.dat:/system/etc/firmware/RT2870APCard.dat \
+    $(LOCAL_PATH)/proprietary/etc/firmware/RT2870STA.dat:/system/etc/firmware/RT2870STA.dat \
+    $(LOCAL_PATH)/proprietary/etc/firmware/RT2870STACard.dat:/system/etc/firmware/RT2870STACard.dat \
+    $(LOCAL_PATH)/proprietary/etc/firmware/RT5370AP.dat:/system/etc/firmware/RT5370AP.dat \
+    $(LOCAL_PATH)/proprietary/etc/firmware/RT5370STA.dat:/system/etc/firmware/RT5370STA.dat \
+    $(LOCAL_PATH)/proprietary/etc/firmware/config.txt:/system/etc/firmware/config.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK901.bin:/system/etc/firmware/fw_RK901.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK901a0.bin:/system/etc/firmware/fw_RK901a0.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK901a0_apsta.bin:/system/etc/firmware/fw_RK901a0_apsta.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK901a2.bin:/system/etc/firmware/fw_RK901a2.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK901a2_apsta.bin:/system/etc/firmware/fw_RK901a2_apsta.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK901a2_p2p.bin:/system/etc/firmware/fw_RK901a2_p2p.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK903.bin:/system/etc/firmware/fw_RK903.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK903_ag.bin:/system/etc/firmware/fw_RK903_ag.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK903_ag_apsta.bin:/system/etc/firmware/fw_RK903_ag_apsta.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK903_ag_p2p.bin:/system/etc/firmware/fw_RK903_ag_p2p.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK903_p2p.bin:/system/etc/firmware/fw_RK903_p2p.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK903b2.bin:/system/etc/firmware/fw_RK903b2.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK903b2_apsta.bin:/system/etc/firmware/fw_RK903b2_apsta.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_RK903b2_p2p.bin:/system/etc/firmware/fw_RK903b2_p2p.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_awnb108.bin:/system/etc/firmware/fw_awnb108.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_awnb108_ap.bin:/system/etc/firmware/fw_awnb108_ap.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_bcm4330.bin:/system/etc/firmware/fw_bcm4330.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/fw_bcm4330_apsta.bin:/system/etc/firmware/fw_bcm4330_apsta.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram.txt:/system/etc/firmware/nvram.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_4330.txt:/system/etc/firmware/nvram_4330.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_4330_oob.txt:/system/etc/firmware/nvram_4330_oob.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_AP6181.txt:/system/etc/firmware/nvram_AP6181.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_AP6210.txt:/system/etc/firmware/nvram_AP6210.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_AP6210_24M.txt:/system/etc/firmware/nvram_AP6210_24M.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_AP6330.txt:/system/etc/firmware/nvram_AP6330.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_AP6476.txt:/system/etc/firmware/nvram_AP6476.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_AP6493.txt:/system/etc/firmware/nvram_AP6493.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_B23.txt:/system/etc/firmware/nvram_B23.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_GB86302I.txt:/system/etc/firmware/nvram_GB86302I.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_RK901.txt:/system/etc/firmware/nvram_RK901.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_RK903.cal:/system/etc/firmware/nvram_RK903.cal \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_RK903.txt:/system/etc/firmware/nvram_RK903.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_RK903_26M.cal:/system/etc/firmware/nvram_RK903_26M.cal \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nvram_awnb108.txt:/system/etc/firmware/nvram_awnb108.txt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/otp.bin.z77:/system/etc/firmware/otp.bin.z77
