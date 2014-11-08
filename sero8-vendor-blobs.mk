@@ -60,3 +60,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/modules/vpu_service.ko:/system/lib/modules/vpu_service.ko \
     $(LOCAL_PATH)/proprietary/lib/modules/vpu_service.ko.3.0.36+:/system/lib/modules/vpu_service.ko.3.0.36+ \
     $(LOCAL_PATH)/proprietary/lib/modules/wlan.ko:/system/lib/modules/wlan.ko
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/hw/audio.alsa_usb.rk30board.so:/system/lib/hw/audio.alsa_usb.rk30board.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/audio.primary.rk30board.so:/system/lib/hw/audio.primary.rk30board.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/audio_policy.rk30board.so:/system/lib/hw/audio_policy.rk30board.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/camera.rk30board.so:/system/lib/hw/camera.rk30board.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/gpu.rk30board.so:/system/lib/hw/gpu.rk30board.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/lights.rk30board.so:/system/lib/hw/lights.rk30board.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/power.rk3188.so:/system/lib/hw/power.rk3188.so
