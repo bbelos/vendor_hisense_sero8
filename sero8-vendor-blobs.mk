@@ -130,5 +130,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libjpeghwdec.so:/system/lib/libjpeghwdec.so \
     $(LOCAL_PATH)/proprietary/lib/libjpeghwenc.so:/system/lib/libjpeghwenc.so \
+    $(LOCAL_PATH)/proprietary/lib/librk_on2.so:/system/lib/librk_on2.so \
     $(LOCAL_PATH)/proprietary/lib/librkswscale.so:/system/lib/librkswscale.so \
     $(LOCAL_PATH)/proprietary/lib/libvpu.so:/system/lib/libvpu.so
